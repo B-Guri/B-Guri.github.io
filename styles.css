@@ -372,6 +372,7 @@
     .upper_head_content
     {
         width: auto;
+        padding-left: 5px;
     }
     .mid_header
     {
@@ -408,11 +409,17 @@
     {
         width: auto;
     }
+
+    .down_header_content > p
+    {
+        padding: 10px;
+    }
     .main_content
     {
         flex-flow: wrap-reverse;
         width: auto;
         justify-content: center;
+        padding: 5px;
     }
 
     .main_left_side
@@ -444,6 +451,8 @@
     .bottom_content
     {
         width: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .solo_edu
@@ -470,8 +479,9 @@
 
     .personal_text
     {
-        flex-flow: wrap;
+        display: block;
     }
+
 }
 
 @media(max-width: 910px)
@@ -479,5 +489,23 @@
     .right_side_content
     {
         margin-left: 0px;
+    }
+}
+
+@media(max-width: 600px)
+{
+    .hobies_block
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    .prof_bloc_flex
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 }
