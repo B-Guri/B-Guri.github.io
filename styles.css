@@ -366,3 +366,118 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media(max-width: 1040px)
+{
+    .upper_head_content
+    {
+        width: auto;
+    }
+    .mid_header
+    {
+        height: auto;
+    }
+    .mid_header_content
+    {
+        justify-content: center;
+        flex-flow: wrap-reverse;
+        width: auto;
+    }
+    .mid_header_name
+    {
+        text-align: center;
+        width: 100%;
+    }
+    .mid_header_name > h1
+    {
+        padding-top: 10px;
+    }
+    .mid_header_foto
+    {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .down_header
+    {
+        height: auto;
+    }
+
+    .down_header_content
+    {
+        width: auto;
+    }
+    .main_content
+    {
+        flex-flow: wrap-reverse;
+        width: auto;
+        justify-content: center;
+    }
+
+    .main_left_side
+    {
+        box-shadow: none;
+        width: auto;
+    }
+
+    .main_right_side
+    {
+        width: auto;
+    }
+
+    .circle_block_flex
+    {
+        display: block;
+    }
+    .circle
+    {
+        display: none;
+    }
+
+    .education_content_block
+    {
+        margin-left: 0px;
+        border-left: none;
+    }
+
+    .bottom_content
+    {
+        width: auto;
+    }
+
+    .solo_edu
+    {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .skill_top_elipse
+    {
+        margin-bottom: 10px;
+    }
+
+    .main_personal_info
+    {
+        width: auto;
+    }
+
+    .software_info
+    {
+        width: auto;
+        flex-flow: wrap;
+    }
+
+    .personal_text
+    {
+        flex-flow: wrap;
+    }
+}
+
+@media(max-width: 910px)
+{
+    .right_side_content
+    {
+        margin-left: 0px;
+    }
+}
