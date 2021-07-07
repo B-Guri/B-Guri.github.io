@@ -73,7 +73,7 @@
 
 .down_header{
     width: 100%;
-    height: 180px;
+    height: auto;
     background-color: #b9c4ca; 
 }
 
@@ -87,6 +87,7 @@
     color: #3e4f58;
     font-weight: 300;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .main_content{
@@ -361,6 +362,8 @@
     color: #fff;
     font-weight: 300;
     font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .bottom_content > p > a{
     color: #fff;
