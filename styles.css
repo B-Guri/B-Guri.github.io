@@ -176,6 +176,10 @@
     width: 50%;
 }
 
+.p25{
+    width: 25%;
+}
+
 .hobies_block{
     width: 370px;
     display: flex;
